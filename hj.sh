@@ -35,7 +35,7 @@ echo "  8) 回程线路测试:命令:./huicheng 您的IP "
 echo "  9) 云监控"
 echo "  10) 傻瓜式一键DD包（OD源）"
 echo "  11) 傻瓜式一键DD包（GD源）"
-echo "  12) Aria2"
+echo "  12) ccaa"
 echo ""
 echo -n "请输入编号: "
 read N
