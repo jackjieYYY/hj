@@ -51,6 +51,6 @@ case $N in
   9) wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/doubi/master/status.sh && chmod +x status.sh && bash status.sh ;;
   10) wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/dd-od.sh && chmod +x dd-od.sh  && ./dd-od.sh ;;
   11) wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/dd-gd.sh && chmod +x dd-gd.sh  && ./dd-gd.sh ;;
-  12) wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh && chmod +x aria2.sh && bash aria2.sh ;;
+  12) wget -N --no-check-certificate https://github.com/helloxz/ccaa/archive/master.zip && unzip master.zip && cd ccaa-master && chmod +x *.sh && ./ccaa.sh ;;
   *) echo "Wrong input!" ;;
 esac
