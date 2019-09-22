@@ -49,11 +49,8 @@ case $N in
   7) wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/cesu/master/superbench.sh && chmod +x superbench.sh && bash superbench.sh ;;
   8) wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/huicheng/master/huicheng && chmod +x huicheng ;;
   9) wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/doubi/master/status.sh && chmod +x status.sh && bash status.sh ;;
-  10) wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/dd-od.sh && chmod +x dd-od.sh  && ./dd-od.sh 
-  ;;
-  11) wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/dd-gd.sh && chmod +x dd-gd.sh  && ./dd-gd.sh 
-  ;;
-  12) wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh && chmod +x aria2.sh && bash aria2.sh 
-  ;;
+  10) wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/dd-od.sh && chmod +x dd-od.sh  && ./dd-od.sh ;;
+  11) wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/dd-gd.sh && chmod +x dd-gd.sh  && ./dd-gd.sh ;;
+  12) wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh && chmod +x aria2.sh && bash aria2.sh ;;
   *) echo "Wrong input!" ;;
 esac
